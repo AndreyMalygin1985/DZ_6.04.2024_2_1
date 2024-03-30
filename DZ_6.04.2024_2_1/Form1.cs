@@ -4,7 +4,8 @@ namespace DZ_6._04._2024_2_1
 {
     public partial class Form1 : Form
     {
-        private string surnameText, nameText, surname2Text, sexText, birthDateText, familyStatusText, additionalInfoText;
+        private string surnameText, nameText, surname2Text, sexText,
+                birthDateText, familyStatusText, additionalInfoText;
 
         public Form1()
         {
@@ -60,45 +61,5 @@ namespace DZ_6._04._2024_2_1
         {
             additionalInfoText = AdditionalInformation.Text;
         }
-
-        /*public Form1()
-        {
-            InitializeComponent();
-        }
-
-        private void Surname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Name_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Surname2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Sex_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void YearAndDateOfBirth_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FamilyStatus_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AdditionalInformation_TextChanged(object sender, EventArgs e)
-        {
-
-        }*/
     }
 }
